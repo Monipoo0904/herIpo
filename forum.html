@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <meta name="monetization" content="$ilp.uphold.com/Wfr3fwdDNWXH" />
+
+  <style>
+    .hidden {
+      display: none;
+    }
+  </style>
+
+  <script>
+    if (document.monetization) {
+      document.monetization.addEventListener('monetizationstart', () => {
+        document.getElementById('exclusive').classList.remove('hidden')
+      })
+    }
+  </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>replit</title>
@@ -17,7 +32,39 @@
       <a href="create.html">Creative Works</a>
       <a href="business.html">Business</a>
       <a class="move" href="forum.html">Forum</a>
+      
+      
+      
       </div>
+       <p>The forum will appear for web monetized users only.</p>
+  <hr />
+    <div id="exclusive" class="hidden">
+      <div class="container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFH0s8dHHc6k_cV5TIr4Qx2vmkZWInvcVcUg&usqp=CAU" alt="Avatar">
+  <p>Goodmorning all! How's everyones day going?</p>
+  <span class="time-right">8:43</span>
+</div>
+
+<div class="container darker">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_yQT6RgMycv-_hsujqT79RVw36geMpwypg&usqp=CAU" alt="Avatar" class="right">
+  <p>Hey! I'm fine. Thanks for asking!</p>
+  <span class="time-left">11:01</span>
+</div>
+
+<div class="container">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFH0s8dHHc6k_cV5TIr4Qx2vmkZWInvcVcUg&usqp=CAU" alt="Avatar">
+  <p>Sweet! So, what do you wanna do today?</p>
+  <span class="time-right">11:02</span>
+</div>
+
+<div class="container darker">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_yQT6RgMycv-_hsujqT79RVw36geMpwypg&usqp=CAU" alt="Avatar" class="right">
+  <p>Nah, I dunno. Play soccer.. or learn more coding perhaps?</p>
+  <span class="time-left">11:05</span>
+</div>
+      </div>
+
+
 
 
 
