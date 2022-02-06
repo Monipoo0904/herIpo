@@ -4,12 +4,12 @@
   display: flex;
   justify-content: space-between;
   padding: 25px 50px 0px 50px;
-  overflow: auto;
 
 }
 body {
   font-family: 'Balsamiq Sans', cursive;
-  background-color: #FBB99F}
+  background-color: #FBB99F
+  }
 
 .topnav a{
 font-family: 'Balsamiq Sans', cursive;
@@ -61,7 +61,6 @@ border-radius: 40px;
   margin: 40px 60px 0px 60px;
   background: #F7F0EA;
    border-radius: 40px;  
-   overflow-y: auto;
 }
 
 h1 {
@@ -86,13 +85,12 @@ text-align: center;
 padding: 0px 60px 0px 60px;
 
 color: #424347;
- overflow-y: auto;
 }
 
 .bottomnav {
   font-family: 'Balsamiq Sans', cursive;
   background-color:  #FF5454;
- overflow: hidden;
+  overflow: hidden;
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -110,64 +108,4 @@ color: #424347;
 .bottomnav a:hover {
   background-color: #FBB99F;
   color: black;
-}
-
-.underbar{
-  width: 0;
-  height: 5px;
-  background: rgba(100,100,200,0);
-  
-  top: 20px;
-  position: absolute;
-  transition: 0.5s ease;
-}
-
-
-  
-
-
-a{
-    transition: 0.5s ease;
-}
-
-a:nth-of-type(1):hover ~ .underbar{
-    left: 415px;
-    width: 100px;
-    top: 78px;
-    background: #FF5454;
-  }
-  
-
-  a:nth-of-type(2):hover ~ .underbar{
-    left: 530px;
-    width: 100px;
-    top: 78px;
-    background: #FF5454;
-  }
-  a:nth-of-type(3):hover ~ .underbar{
-    left: 645px;
-    width: 100px;
-    top: 78px;
-    background: #FF5454;
-  }
-  a:nth-of-type(4):hover ~ .underbar{
-    left: 760px;
-    width: 200px;
-    top: 78px;
-    background: #FF5454;
-  }
-  a:nth-of-type(5):hover ~ .underbar{
-    left: 975px;
-    width: 310px;
-    top: 78px;
-    background: #FF5454;
-  }
- a:nth-of-type(6):hover ~ .underbar{
-    left: 1305px;
-    width: 95px;
-    top: 78px;
-    background: #FF5454;
-  } */
-
-  cursor: pointer;
 }
